@@ -89,9 +89,9 @@
 /* -----------story type section */
 
 .story-type-container {
-  margin-top: 45px;
-  margin-bottom: 65px;
-  padding: 35px 20px;
+  margin-top: 25px;
+  margin-bottom: 32px;
+  padding: 26px 20px;
   background-color: #fffbdd;
   border-radius: 20px;
 }
@@ -113,4 +113,40 @@
 
 .story-type-link:hover {
   color: rgb(145, 20, 20);
+}
+
+/* ---------follow section style */
+
+.follow-container {
+  background-color: #ffebae;
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.follow-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0e5f9c;
+}
+
+.facebook-link {
+  text-decoration: none;
+  color: rgb(43, 43, 143);
+}
+
+.follow-btn {
+  border: none;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0e5f9c;
 }
